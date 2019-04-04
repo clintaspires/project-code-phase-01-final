@@ -1,0 +1,143 @@
+/* CSS RESET */
+* {
+    margin: 0;
+    padding: 0;
+    line-height: 1.75;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+p {
+    font-size: 1.125rem;
+}
+
+h1 {
+    font-size: 3.73rem;
+}
+
+nav {
+    text-align: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: rgba(210, 210, 210, 0.3);
+}
+
+nav ul {
+    display: flex;
+    margin: 0;
+    justify-content: center;
+}
+
+nav ul li {
+    flex-grow: 1;
+}
+
+nav ul li:first-child {
+    flex-grow: 2;
+}
+
+/*Remove Bullets*/
+ul {
+    list-style-type: none;
+    
+}
+
+nav ul a:link {
+    text-decoration: none;
+    color: #F4FC00;
+    padding: 10px;
+    display: block;
+}
+
+nav ul a:visited {
+    color: #FF3F00;
+}
+
+nav ul a:hover {
+    background: rgba(220, 220, 220, 0.45);
+}
+
+header {
+    padding: 2%;
+    width: 99.9vw;
+    height: auto;
+    background-image: url(../images/keys.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    text-align: right;
+}
+
+header h1 {
+    color: #DC136C;
+    font-family: 'Monoton', cursive;
+    font-weight: normal;
+}
+
+header p {
+    color: #380036;
+    font-family: 'Permanent Marker', cursive;
+}
+
+#videos {
+    display: flex;
+    justify-content: space-between;
+    width: 99%
+}
+
+#videos p {
+    width: 50vw;
+    overflow: hidden;
+}
+
+html {
+    font-size: 22px;
+}
+
+/*footer p {*/
+/*    padding: 8%;*/
+/*    width: 99.9vw;*/
+/*    background-image: url(../images/wood.jpg);*/
+/*    background-repeat: no-repeat;*/
+/*    background-size: cover;*/
+/*    background-position: center center;*/
+/*}*/
+
+/*Media Queries*/
+@media screen and (max-width: 650px) {
+html {
+    font-size: 12px;
+}
+
+#videos {
+    flex-direction: column;
+}
+
+#videos p {
+    height: auto;
+    width: 99.9vw;
+    overflow: hidden;
+}
+
+header {
+    text-align: center;
+}
+
+header h1 {
+    color: #DC136C;
+    font-weight: normal
+}
+
+footer p {
+  background-size: auto;
+}
+    
+header p {
+    color: #9FCC2E;
+    font-weight: normal;
+}

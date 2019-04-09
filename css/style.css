@@ -52,10 +52,12 @@ nav ul a:link {
     color: #F4FC00;
     padding: 10px;
     display: block;
+    text-shadow: 1px 1px #12100e;
 }
 
 nav ul a:visited {
     color: #FF3F00;
+    text-shadow: 1px 1px #12100e;
 }
 
 nav ul a:hover {
@@ -71,6 +73,7 @@ header {
     background-size: cover;
     background-position: center center;
     text-align: right;
+    text-shadow: 1px 1px #12100e;
 }
 
 header h1 {
@@ -99,6 +102,20 @@ html {
     font-size: 22px;
 }
 
+article {
+    text-align: justify;
+    top: 0;
+    width: 100%;
+    background: rgba(210, 210, 210, 0.8);
+}    
+
+#about h2 {
+    text-shadow: 1px 1px #12100e;
+}
+
+#about a {
+    text-shadow: 1px 1px #12100e;
+}
 /*footer p {*/
 /*    padding: 8%;*/
 /*    width: 99.9vw;*/
@@ -134,10 +151,14 @@ header h1 {
 }
 
 footer p {
-  background-size: auto;
+    background-size: auto;
 }
     
 header p {
     color: #9FCC2E;
+    font-weight: normal;
+}
+
+article p{
     font-weight: normal;
 }

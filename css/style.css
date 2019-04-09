@@ -73,7 +73,7 @@ header {
     background-size: cover;
     background-position: center center;
     text-align: right;
-    text-shadow: 1px 1px #12100e;
+    text-shadow: 1.5px 1.5px #12100e;
 }
 
 header h1 {
@@ -104,6 +104,7 @@ html {
 
 article {
     text-align: justify;
+    padding: 12px;
     top: 0;
     width: 100%;
     background: rgba(210, 210, 210, 0.8);
@@ -111,6 +112,7 @@ article {
 
 #about h2 {
     text-shadow: 1px 1px #12100e;
+    
 }
 
 #about a {

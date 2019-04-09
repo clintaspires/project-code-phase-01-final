@@ -76,14 +76,14 @@ header {
 }
 
 header h1 {
-    color: #DC136C;
+    color: #ff0048;
     font-family: 'Monoton', cursive;
     font-weight: normal;
     text-shadow: 1.5px 1.5px #12100e;
 }
 
 header p {
-    color: #9FCC2E;
+    color: #90ff00;
     font-family: 'Permanent Marker', cursive;
     text-shadow:
 		-1.5px -1.5px 0 #000,
@@ -153,7 +153,6 @@ header {
 }
 
 header h1 {
-    color: #DC136C;
     font-weight: normal
 }
 
@@ -169,7 +168,6 @@ footer p {
 }
     
 header p {
-    color: #9FCC2E;
     font-weight: normal;
 }
 

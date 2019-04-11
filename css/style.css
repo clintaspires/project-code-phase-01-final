@@ -1,4 +1,4 @@
-/* CSS RESET */
+ CSS RESET 
 * {
     margin: 0;
     padding: 0;
@@ -17,6 +17,10 @@ p {
 
 h1 {
     font-size: 3.73rem;
+    color: #ff0048;
+    font-family: 'Monoton', cursive;
+    font-weight: normal;
+    text-shadow: 1.5px 1.5px 1.5px #12100e;
 }
 
 nav {
@@ -41,10 +45,8 @@ nav ul li:first-child {
     flex-grow: 2;
 }
 
-/*Remove Bullets*/
 ul {
     list-style-type: none;
-    
 }
 
 nav ul a:link {
@@ -57,7 +59,7 @@ nav ul a:link {
 
 nav ul a:visited {
     color: #FF3F00;
-    text-shadow: 1px 1px #12100e;
+    text-shadow: 1px 1px 1px #12100e;
 }
 
 nav ul a:hover {
@@ -67,7 +69,7 @@ nav ul a:hover {
 header {
     padding: 2%;
     width: 99.9vw;
-    height: auto;
+    height:auto;
     background-image: url(../images/keys.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -75,21 +77,14 @@ header {
     text-align: right;
 }
 
-header h1 {
-    color: #ff0048;
-    font-family: 'Monoton', cursive;
-    font-weight: normal;
-    text-shadow: 1.5px 1.5px #12100e;
-}
-
 header p {
     color: #90ff00;
     font-family: 'Permanent Marker', cursive;
     text-shadow:
-		-1.5px -1.5px 0 #000,
-		1.5px -1.5px 0 #000,
-		-1.5px 1.5px 0 #000,
-		1.5px 1.5px 0 #000;
+		-1.5px -1.5px 2.5px #000,
+		1.5px -1.5px 2.5px #000,
+		-1.5px 1.5px 2.5px #000,
+		1.5px 1.5px 2.5px #000;
 }
 
 #videos {
@@ -104,38 +99,28 @@ header p {
 }
 
 html {
-    font-size: 22px;
+    font-size: 24px;
 }
 
 article {
     text-align: justify;
     padding: 4%;
     top: 0;
-    width: 100%;
     background: rgba(210, 210, 210, 0.8);
 }    
 
 #about h2 {
-    text-shadow: 1px 1px #12100e;
-    
+    text-shadow: 1px 1px 1px #12100e;
 }
 
 #about a {
-    text-shadow: 1px 1px #12100e;
+    text-shadow: 1px 1px 1px #12100e;
 }
-/*footer p {*/
-/*    padding: 8%;*/
-/*    width: 99.9vw;*/
-/*    background-image: url(../images/wood.jpg);*/
-/*    background-repeat: no-repeat;*/
-/*    background-size: cover;*/
-/*    background-position: center center;*/
-/*}*/
 
 /*Media Queries*/
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 768px) {
 html {
-    font-size: 12px;
+    font-size: 16px;
 }
 
 #videos {
@@ -152,16 +137,12 @@ header {
     text-align: center;
 }
 
-header h1 {
-    font-weight: normal
-}
-
 header p {
     text-shadow:
-		-.5px -.5px 0 #000,
-		.5px -.5px 0 #000,
-		-.5px .5px 0 #000,
-		.5px .5px 0 #000;
+		-.5px -.5px 2.5px #000,
+		.5px -.5px 2.5px #000,
+		-.5px .5px 2.5px #000,
+		.5px .5px 2.5px #000;
 }
 footer p {
     background-size: auto;
@@ -171,6 +152,21 @@ header p {
     font-weight: normal;
 }
 
-article p{
+article p {
     font-weight: normal;
+}
+}
+
+/*Media Queries*/
+@media screen and (max-width: 568px) {
+html {
+    font-size: 14px;
+}
+}
+
+/*Media Queries*/
+@media screen and (max-width: 428px) {
+html {
+    font-size: 11px;
+}
 }

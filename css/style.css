@@ -29,7 +29,6 @@ nav {
     position: fixed;
     top: 0;
     width: 100%;
-    /*background: rgba(210, 210, 210, 0.3);*/
     background-color: #656565
 }
 
@@ -54,7 +53,7 @@ ul {
 nav ul a:link {
     text-decoration: none;
     color: #F4FC00;
-    padding: 10px;
+    padding: 3px;
     display: block;
     text-shadow: 1px 1px #12100e;
 }
@@ -144,12 +143,6 @@ header p {
 		.5px -.5px 2.5px #000,
 		-.5px .5px 2.5px #000,
 		.5px .5px 2.5px #000;
-}
-footer p {
-    background-size: auto;
-}
-    
-header p {
     font-weight: normal;
 }
 

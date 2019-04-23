@@ -1,4 +1,4 @@
- CSS RESET 
+CSS RESET 
 * {
     margin: 0;
     padding: 0;
@@ -80,11 +80,12 @@ header {
 header p {
     color: #90ff00;
     font-family: 'Permanent Marker', cursive;
-    text-shadow:
-		-1.5px -1.5px 2.5px #000,
-		1.5px -1.5px 2.5px #000,
-		-1.5px 1.5px 2.5px #000,
-		1.5px 1.5px 2.5px #000;
+    text-shadow: 
+		-1.5px -1.5px 3.5px #200,
+		1.5px -1.5px 3.5px #200,
+		-1.5px 1.5px 3.5px #200,
+		1.5px 1.5px 3.5px #200;
+	margin-bottom: auto;
 }
 
 #videos {
@@ -94,8 +95,14 @@ header p {
 }
 
 #videos p {
+    position: relative;
     width: 50vw;
     overflow: hidden;
+}
+
+#videos iframe {
+    width: 99%;
+    height: 315px;
 }
 
 html {
@@ -104,7 +111,7 @@ html {
 
 article {
     text-align: justify;
-    padding: 3%;
+    padding: 2.5%;
     top: 0;
     background-color: #999999;
 }    

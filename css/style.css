@@ -10,14 +10,10 @@ body {
     background-color: black;
     font-family: Verdana, Geneva, sans-serif;
     margin: 0;
-}
-
-p {
-    font-size: 1.125rem;
+    font-size: calc(14px + (28 - 16) * ((100vw - 300px) / (1600 - 300)));
 }
 
 h1 {
-    font-size: 3.73rem;
     color: #ff0048;
     font-family: 'Monoton', cursive;
     font-weight: normal;
@@ -105,10 +101,6 @@ header p {
     height: 315px;
 }
 
-html {
-    font-size: 24px;
-}
-
 article {
     text-align: justify;
     padding: 2.5%;
@@ -126,9 +118,6 @@ article {
 
 /*Media Queries*/
 @media screen and (max-width: 768px) {
-html {
-    font-size: 16px;
-}
 
 #videos {
     flex-direction: column;
@@ -155,19 +144,5 @@ header p {
 
 article p {
     font-weight: normal;
-}
-}
-
-/*Media Queries*/
-@media screen and (max-width: 568px) {
-html {
-    font-size: 14px;
-}
-}
-
-/*Media Queries*/
-@media screen and (max-width: 428px) {
-html {
-    font-size: 11px;
 }
 }
